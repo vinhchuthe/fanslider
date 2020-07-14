@@ -1,0 +1,30 @@
+.vct-wrapper, .vct-wrapper .main-slide, .vct-wrapper .main-slide .swiper-container, .vct-wrapper .main-slide .swiper-container .swiper-wrapper, .vct-wrapper .main-slide .swiper-container .swiper-wrapper .swiper-slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.vct-wrapper .vct-slide-nav {
+  position: fixed;
+  top: -20vh;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 10;
+}
+
+.vct-wrapper .main-slide {
+  width: 100%;
+  height: 100vh;
+}
+
+.vct-wrapper .main-slide .swiper-container .swiper-wrapper .swiper-slide {
+  color: red;
+  background-color: #d6d6d6;
+}
+/*# sourceMappingURL=demo2.css.map */
